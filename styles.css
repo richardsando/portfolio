@@ -1,0 +1,38 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: linear-gradient(180deg, #324D66 0%, #725062 48.44%, #E87283 73.78%, #F6B197 100%);
+    height: 4096px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.background-img {
+    position: absolute;
+    /* width: 2853px;
+    height: 1759px;
+    left: -134px;
+    top: 2048px; */
+    /* background: url(image.png); */
+    /* transform: rotate(-90deg); */
+    width: 100%;
+    opacity: 0.2;
+}
+
+.skills {
+    /* background-color: red; */
+    display: flex;
+    height: 250px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.icons {
+    color:blanchedalmond;
+    transform: scale(5);
+} */
+
+
