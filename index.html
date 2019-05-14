@@ -8,13 +8,36 @@
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-
-    <title>Richard Sando</title>
+    <title>Richard Sando Portfolio</title>
 </head>
 <body>
-    <img class="background-img" src="./src/background_img.png" alt="">
-    <h1>Richard Sando</h1>
+    <!-- <img class="background-img" src="./src/images/alt_bg_img.png" alt="wheres that boy"> -->
+    <img class="background-img" src="./src/images/bg_img.png" alt="wheres that boy">
     
+    <div class="main-page">
+
+        <div class="nav-wrapper">
+            <nav class="nav">
+                <item class="nav-item">main</item>
+                <item class="nav-item">about</item>
+                <item class="nav-item">skills</item>
+                <item class="nav-item">contact</item>
+            </nav>
+        </div>
+        
+        <div class="text-img-wrapper">
+            <h1> <strong>Hi, my name is Richard.</strong></h1>
+           
+            <p class="intro" >I'm a junior web developer based in Melbourne, Australia</p>
+            
+            <p class="intro">Clink on the links to find out more</p>
+
+            <img class="profile-pic" src="./src/images/profile_pic.jpg" alt="">
+        </div>
+    </div>
+
+    
+
     <h1>about me</h1>
     
     <div class="skills-page">
@@ -70,13 +93,28 @@
         <h1>contact</h1>
 
         <div class="container">
-            <form action="action_page.php">
-
-                <label for="First Name"></label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-            </form>
-        </div>
+                <form action="action_page.php">
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select>
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
     </div>
 
   
