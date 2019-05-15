@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     z-index: 1;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -10,11 +11,12 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     color: #F2AC96;
+
 }
 .social-media {
     display: flex;
     /* background-color: red; */
-    width: 100px;
+    width: 5%;
     flex-direction: column;
     justify-content: space-around;
     position: fixed;
@@ -23,11 +25,17 @@ body {
     border-right: #F2AC96;
     border-right-width: 10px;
     margin-top: 7.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
 .social-icon {
     display: flex;
     width: 30px;
 }
+/* .scrolling-box {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+} */
 
 h1 {
     /* background-color: aquamarine; */
@@ -38,10 +46,11 @@ h1 {
 }
 .background-img {
     position: fixed;
-    width: 100%;
+    /* width: 100%; */
     opacity: 0.2;
     z-index: -1;
     object-fit: none;
+    overflow: hidden;
     /* height: 100%; */
 }
 
@@ -53,6 +62,10 @@ h1 {
 a {
     text-decoration: none;
     color: #F2AC96;
+}
+
+a:hover {
+    transform: scale(1.5)
 }
 .nav {
     /* background-color: rgb(19, 47, 83); */
@@ -67,7 +80,13 @@ a {
     margin-right: 10%;
     /* opacity: 0.5; */
     font-size: 0.8em;
+    flex-wrap: wrap;
 }
+
+.nav-item:hover {
+    transform: scale(1.5)
+}
+
 .text-img-wrapper {
     display: grid;
     flex-direction: column;
