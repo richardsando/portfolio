@@ -26,13 +26,14 @@ h1 {
     z-index: -1;
 }
 
-.main-page {
-    height: 1024px;
+.nav-wrapper {
+    /* background-color: darkslategray; */
+    opacity: 0.9;   
 }
 
-.nav-wrapper {
-    background-color: darkslategray;
-    opacity: 0.6;   
+a {
+    text-decoration: none;
+    color: #F2AC96;
 }
 .nav {
     /* background-color: rgb(19, 47, 83); */
@@ -65,6 +66,12 @@ p {
     /* margin-left: 60%; */
     width: 20%;
     border-radius: 50%;
+}
+
+.page {
+    height: 25%;
+    /* overflow-y: scroll;
+    scroll-behavior: smooth; */
 }
 
 .skills {
