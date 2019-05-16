@@ -57,7 +57,7 @@
         </div>
         
         <div class="main-text-img-wrapper">
-            <h1> <strong>Hi, my name is Richard.</strong></h1>
+            <h1 id="main-header"> <strong>Hi, my name is Richard.</strong></h1>
         
             <p class="p1" >I'm a junior web developer and visual effects artist based in Melbourne, Australia</p>
             
@@ -86,7 +86,7 @@
                     </nav>
                 </div>
                 <div class="about-wrapper">
-                    <h1>about me</h1>
+                    <h1>about</h1>
                     <p class="p3">My name is Richard Sando, I'm a passionate young New Zealander living in the exciting city of Melbourne. I'm currently studying at Coder Academy learning a bunch of technologies such as Ruby On Rails and JavaScript. In my spare time I like riding my bike arpund this beautiful city, supporting the local music scene and making or drinking coffee. I have also done a bit of visual effects work which you can look at <a class="vimeo-link" href="https://vimeo.com/richardsandofx">here</a></p>
                 </div>
     </div>
@@ -113,49 +113,20 @@
 
                 <div class="skills-wrapper">
         
-                    <h1>skills</h1>
+                    <h1 id="skills-header">skills</h1>
 
                     <p class="p4">I'm currently learning the Ruby On Rails stack. In the future the Javascript MERN stack (Mongodb, Express, Node and React) will be learnt</p>
             <div class="skills">
-                <div class = "icons">
-                    <i class="devicon-html5-plain-wordmark"></i>
-                </div>
-
-                <div class = "icons">
-                    <i class="devicon-css3-plain-wordmark"></i>
-                </div>
-
-                <div class = "icons">
-                    <i class="devicon-ruby-plain-wordmark"></i>
-                </div>
-
-                <div class = "icons">
-                    <i class="devicon-rails-plain-wordmark"></i>
-                </div>
-
-                <div class="icons">
-                    <i class="devicon-javascript-plain"></i>
-                </div>
-
-                <div class = "icons">
-                    <i class="devicon-mongodb-plain-wordmark"></i>
-                </div>
-
-                <div class = "icons">
-                    <i class="devicon-nodejs-plain-wordmark"></i>
-                </div>
-
-                <div class = "icons">
-                    <i class="devicon-express-original-wordmark"></i>
-                </div>
-
-                <div class="icons">
-                    <i class="devicon-react-original-wordmark"></i>
-                </div>
-
-                <div class="icons">
-                        <i class="devicon-postgresql-plain-wordmark"></i>
-                </div>
+                <i class="devicon-html5-plain-wordmark"></i>
+                <i class="devicon-css3-plain-wordmark"></i>
+                <i class="devicon-ruby-plain-wordmark"></i>
+                <i class="devicon-rails-plain-wordmark"></i>
+                <i class="devicon-javascript-plain"></i>
+                <i class="devicon-mongodb-plain-wordmark"></i>
+                <i class="devicon-nodejs-plain-wordmark"></i>
+                <i class="devicon-express-original-wordmark"></i>
+                <i class="devicon-react-original-wordmark"></i>
+                <i class="devicon-postgresql-plain-wordmark"></i>
             </div>
         </div>    
     </div>
@@ -187,20 +158,20 @@
 
             <div class="container">   
                 <form action="action_page.php">
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label class="fname" for="fname">your name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="">          
                 
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">            
-                
-                    <label for="subject">Subject</label>
+                    <label for="subject">message</label>
                     <textarea id="subject" name="subject" style="height:200px"></textarea>
                 
                     <input type="submit" value="Submit">
                 </form>
             </div>
-
         </div>
+        <div class="foot-wrapper">
+                <footer class="footer">Made with love in melborune
+                </footer>
+            </div>
     </div>
 </div>
     
