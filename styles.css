@@ -59,8 +59,14 @@ a {
     color: #F2AC96;
 }
 
+.current {
+    border-bottom-style: solid;
+    border-width: 1px;
+
+
+}
 a:hover {
-    transform: scale(1.5)
+    transform: scale(1.25)
 }
 .nav {
     display:flex;
@@ -126,7 +132,7 @@ h1 {
     grid-column: 9 / span 14;
     grid-row: 3 / span 5;
     border-style: solid;
-    border-width: 7.5px;
+    border-width: 5px;
 }
 
 .page {
