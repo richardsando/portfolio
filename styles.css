@@ -11,13 +11,14 @@ body {
     /* background: linear-gradient(0deg, #284559 0%, #2B485E 27.2%, #F07382 70.31%, #F6B197 100%); */
     height: 400vh;
     font-family: 'Montserrat', sans-serif;
-    font-size: 250%;
+    font-size: 20pt;
     color: #F2AC96;
+    text-size-adjust: auto;
 }
 .social-media {
     display: flex;
     /* background-color: blanchedalmond; */
-    width: 3.5%;
+    width: 4.5%;
     flex-direction: column;
     justify-content: space-around;
     position: fixed;
@@ -30,11 +31,10 @@ body {
     border-radius: 50px;
     border-width: 1.5px;
     
-   
 }
 .social-icon {
     display: flex;
-    width: 30px;
+    width: 90%;
     /* background-color: #F2AC96; */
 }
 
@@ -58,23 +58,25 @@ a {
     text-decoration: none;
     color: #F2AC96;
 }
-
+.page {
+    height: 100vh;
+}
 .current {
     border-bottom-style: solid;
     border-width: 1px;
-
-
 }
+
 a:hover {
     transform: scale(1.25)
 }
+
 .nav {
     display:flex;
     justify-content: space-between;
     height: 100%;
     align-items: center;
     width: 80%;
-    font-size: 1em;
+    font-size: 10em;
     margin-left: 10%;
     margin-right: 10%;
     /* opacity: 0.5; */
@@ -85,33 +87,37 @@ a:hover {
     /* margin-top: 20px; */
     border-width: 1px;
 }
+.nav-item {
+    font-weight: lighter;
+    font-size: 1.5em;
+    font-size-adjust: auto;
+}
+
 
 .nav-item:hover {
     transform: scale(1.5)
 }
 
 .main-text-img-wrapper {
-    /* background-color: #4CAF50; */
     display: grid;
     margin-left: 10%;
     margin-top: 3.5%;
-    height: 90%;
+    height: 70;
     margin-right: 10%;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin-bottom: 100px;
+    /* grid-auto-columns: 2fr 1fr 1fr;
+    grid-auto-rows: 2fr 1fr 1fr; */
 }
 
 .p1 {
-    background-color: purple;
-    /* width: 60%; */
     grid-column: 1 / span 7;
     grid-row: 3 / span 4;
     margin-top: 5%;
 }
 .p2 {
     margin-top: 5%;
-    background-color: pink;
-    /* width: 60%; */
     grid-column: 1 / span 7;
     grid-row: 4 / span 5;
 }
@@ -119,60 +125,89 @@ a:hover {
 h1 {
     width: 100%;
     font-weight: bolder;
-    font-size: 2.5em;
-    grid-column: 1 / span 7;
+    font-size: 4em;
+    grid-column: 1 / span 8;
     grid-row: 1 / span 3;
-    /* background-color: red; */
 }
 
 .profile-pic {
-    /* background-color: #4CAF50; */
     width: 80%;
     border-radius: 50%;
     grid-column: 9 / span 14;
     grid-row: 3 / span 5;
     border-style: solid;
-    border-width: 5px;
+    border-width: 5%;
+}
+.hr {
+    grid-column: 1 / span 14;
+    grid-row: 3 / span 1;
+    border-style: solid;
+    border-width: 1.5px;
+    /* padding-right:  */
 }
 
-.page {
-    height: 100vh;
-    /* overflow-y: scroll;
-    scroll-behavior: smooth; */
+.about-wrapper {
+    display: grid;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.p3 {
+    width: 50%;
+}
+.skills-wrapper {
+    display: grid;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-auto-columns: 50% 50%;
+    grid-auto-rows: 1fr;
+    height: 80%;
 }
 
 .skills {
-    /* background-color: red; */
-    display: flex;
-    height: 250px;
-    justify-content: space-around;
-    align-items: center;
+    background-color: red;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 10px;
+    
 }
 
 .icons {
+    /* display: grid; */
     color:blanchedalmond;
     transform: scale(3);
-    flex-wrap: wrap;
+    
 } 
-/* Style inputs with type="text", select elements and textareas */
-.container {
-    width: 80%;
+
+.contact-wrapper {
+    display: grid;
     margin-left:10%;
+    
 }
+.container {
+    background-color: transparent;
+    width: 80%;
+    border-style: solid;
+    border-color: #E87283;
+    border-radius: 200px;
+    
+}
+
 input[type=text], select, textarea {
+    background-color: transparent;
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
+    border: 5px solid #ccc; /* Gray border */
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
   }
-
   /* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: transparent;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -183,7 +218,7 @@ input[type=submit] {
   
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: transparent;
   }
   
   /* Add a background color and some padding around the form */
@@ -193,3 +228,29 @@ input[type=submit] {
     padding: 20px;
   }
 
+input {
+    background-color: transparent;
+
+}
+.WRAPPER {
+    background-color: #000;
+    height: 575px;
+    width: 975px;
+    /* background-image: url("http://wallpapercave.com/wp/2u5OrmL.png"); */
+    top: auto;
+    margin: -8px;
+}
+#email {
+    background-color:rgba(0, 0, 0, 0);
+    color:white;
+    border: none;
+    outline:none;
+    height:30px;
+    transition:height 1s;
+    -webkit-transition:height 1s;
+}
+#email:focus {
+  
+    height:50px;
+    font-size:16px;
+}

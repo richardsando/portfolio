@@ -61,14 +61,12 @@
         
             <p class="p1" >I'm a junior web developer and visual effects artist based in Melbourne, Australia</p>
             
+            <hr id="hr1" class="hr">
             <p class="p2">Click on the links to find out more</p>
 
             <img class="profile-pic" src="./src/images/profile_pic.jpg" alt="">
         </div>
     </div>
-
-
-    <!-- <img class="background-img" src="./src/images/bg_img.png" alt="wheres that boy"> -->
 
     <div id="about-me-page" class="page">
             <div class="nav-wrapper">
@@ -87,10 +85,12 @@
                         </item>
                     </nav>
                 </div>
-        <h1>about me</h1>
+                <div class="about-wrapper">
+                    <h1>about me</h1>
+                    <p class="p3">My name is Richard Sando, I'm a passionate young New Zealander living in the exciting city of Melbourne. I'm currently studying at Coder Academy learning a bunch of technologies such as Ruby On Rails and JavaScript. In my spare time I like riding my bike arpund this beautiful city, supporting the local music scene and making or drinking coffee. I have also done a bit of visual effects work which you can look at <a class="vimeo-link" href="https://vimeo.com/richardsandofx">here</a></p>
+                </div>
     </div>
 
-    <!-- <img class="background-img" src="./src/images/bg_img.png" alt="wheres that boy"> -->
 
     <div id="skills-page" class="page">
 
@@ -111,102 +111,101 @@
                     </nav>
                 </div>
 
-        <h1>skills</h1>
+                <div class="skills-wrapper">
+        
+                    <h1>skills</h1>
 
-        <div class="skills">
+                    <p class="p4">I'm currently learning the Ruby On Rails stack. In the future the Javascript MERN stack (Mongodb, Express, Node and React) will be learnt</p>
+            <div class="skills">
+                <div class = "icons">
+                    <i class="devicon-html5-plain-wordmark"></i>
+                </div>
 
-            <div class = "icons">
-                <i class="devicon-html5-plain-wordmark"></i>
+                <div class = "icons">
+                    <i class="devicon-css3-plain-wordmark"></i>
+                </div>
+
+                <div class = "icons">
+                    <i class="devicon-ruby-plain-wordmark"></i>
+                </div>
+
+                <div class = "icons">
+                    <i class="devicon-rails-plain-wordmark"></i>
+                </div>
+
+                <div class="icons">
+                    <i class="devicon-javascript-plain"></i>
+                </div>
+
+                <div class = "icons">
+                    <i class="devicon-mongodb-plain-wordmark"></i>
+                </div>
+
+                <div class = "icons">
+                    <i class="devicon-nodejs-plain-wordmark"></i>
+                </div>
+
+                <div class = "icons">
+                    <i class="devicon-express-original-wordmark"></i>
+                </div>
+
+                <div class="icons">
+                    <i class="devicon-react-original-wordmark"></i>
+                </div>
+
+                <div class="icons">
+                        <i class="devicon-postgresql-plain-wordmark"></i>
+                </div>
             </div>
-
-            <div class = "icons">
-                <i class="devicon-css3-plain-wordmark"></i>
-            </div>
-
-            <div class = "icons">
-                <i class="devicon-ruby-plain-wordmark"></i>
-            </div>
-
-            <div class = "icons">
-                <i class="devicon-rails-plain-wordmark"></i>
-            </div>
-
-            <div class="icons">
-                <i class="devicon-javascript-plain"></i>
-            </div>
-
-            <div class = "icons">
-                <i class="devicon-mongodb-plain-wordmark"></i>
-            </div>
-
-            <div class = "icons">
-                <i class="devicon-nodejs-plain-wordmark"></i>
-            </div>
-
-            <div class = "icons">
-                <i class="devicon-express-original-wordmark"></i>
-            </div>
-
-            <div class="icons">
-                <i class="devicon-react-original-wordmark"></i>
-            </div>
-
-            <div class="icons">
-                    <i class="devicon-postgresql-plain-wordmark"></i>
-            </div>
-        </div>
+        </div>    
     </div>
 
-    
-    <!-- <img class="background-img" src="./src/images/bg_img.png" alt="wheres that boy"> -->
 
     <div id="contact-page" class="page">
-            <div class="nav-wrapper">
-                    <nav class="nav">
-                        <item class="nav-item">
-                            <a href="#main-page">main</a>
-                        </item>
-                        <item class="nav-item">
-                            <a href="#about-me-page">about</a>
-                        </item>
-                        <item class="nav-item">
-                            <a href="#skills-page">skills</a>
-                        </item>
-                        <item class="nav-item">
-                            <a href="#contact-page" class="current">contact</a>
-                        </item>
-                    </nav>
-                </div>
-        <h1>contact</h1>
+       
+        <div class="nav-wrapper">
+            <nav class="nav">
+                <item class="nav-item">
+                    <a href="#main-page">main</a>
+                </item>
+                <item class="nav-item">
+                    <a href="#about-me-page">about</a>
+                </item>
+                <item class="nav-item">
+                    <a href="#skills-page">skills</a>
+                </item>
+                <item class="nav-item">
+                    <a href="#contact-page" class="current">contact</a>
+                </item>
+            </nav>
+        </div>
 
-        <!-- <div class="container">
+        <div class="contact-wrapper">
+
+            <h1>contact</h1>
+            <p class="p6">To get in touch either send me a message directly here, or click on one of these guys</p>
+
+            <div class="container">   
                 <form action="action_page.php">
-            
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
-            
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-            
-                <label for="country">Country</label>
-                <select id="country" name="country">
-                    <option value="australia">Australia</option>
-                    <option value="canada">Canada</option>
-                    <option value="usa">USA</option>
-                </select>
-            
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-            
-                <input type="submit" value="Submit">
-            
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">            
+                
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
                 </form>
-            </div> -->
-        
+            </div>
+
+        </div>
     </div>
+</div>
     
 
-<footer>this is the footer</footer>
+
   
 </body>
 </html>
