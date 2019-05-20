@@ -6,6 +6,8 @@ https://github.com/richardsando/portfolio
 
 The purpose of this website is to demonstrate some of the skills which I possess and to serve as a portfolio page that can be shown to potential employers. 
 
+![](/docs/main.png)
+
 # Features/functionality
 
 The page is divided into four sub-pages: main, about, skills, and contact. All of these sub-pages are self contained witihin the one page which scrolls down vertically. I did this so that the user can quickly navigate without having to change pages(in a way).
@@ -19,9 +21,9 @@ I included a fixed (which means it is visible at all times) social media tray on
 The main page has a brief intro and a headshot photo. Just so the user knows that I am a human being. The about page includes a litte more in depth information about me, my hobbies etc.
 The skills page includes the specific languages/frameworks that potential employers may be interested in seeing. Finally, the contact page just includes a contact form as well as my email address and phone number.
 
-I've added a bunch of elements to the site to make is visually appealing and to add a personal touch. The background image, for instance, is a piece of 3d art which I have created.
+I have added a number of elements to the site to make is visually appealing and to add a personal touch. The background image, for instance, is a piece of 3d art which I have created. The image is saved as a .png file so there is transparency where there is no pixel values.
 
-![](src/images/)
+![](docs/background.png)
 
 The target audience is potential employers and generally people who may be interested in some of the stuff I get up to.
 
@@ -52,7 +54,7 @@ Another usability concern was scaling the website down to mobile size. I used a 
 
 The background image I spent a lot of time optimizing and decided what would be the correct resolution. In the end I went with an images that was 720 pixels wide. When the screen is 720p wide or smaller, the images will stay fixed, meaning the image will not become squashed or stretched. I also converted the image to 8bit from 32bit to greatly reducde the size of the file, making the site load faster for slower bandwidths. Another media query was used so that if the user's screen is wider that 720 pixels then the image will stretch. This will only slightly distort the image.
 
-Trello was used extensively to track progress of each task:
+Trello was used to track progress of each task
 
 ![](/docs/trello.png)
 
@@ -60,7 +62,7 @@ Trello was used extensively to track progress of each task:
 
 1. Describe key events in the development of the internet from the 1980s to today (max. 150 words)
 
-Key events in the development of the internet included.
+Key events in the development of the internet included 
 
 2. Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
 

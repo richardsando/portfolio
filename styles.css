@@ -196,7 +196,7 @@ h1 {
 }
 
 .profile-pic {
-    width: 80%;
+    width: 100%;
     border-radius: 50%;
     grid-column: 9 / span 14;
     grid-row: 3 / span 5;
@@ -217,24 +217,41 @@ h1 {
     margin-right: 10%;
     margin-top: 25px;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(8, 12.5%);
     height: 80%;
 
 }
 .p3 {
-    margin-top: 30px;
-    grid-row: 2 / span 1;
+    grid-row: 4 / span 1;
     grid-column: 1 / span 2;
     /* width: 65%; */
 }
 
 .coffee {
-    border: 1.5px solid #F6B197;
+    border: 2px solid #F6B197;
     border-radius: 250px;
     grid-row: 1 / span 1;
     grid-column: 3 / span 1;
-    width: 100%;
+    width: 200px;
+    margin-top: 20px;
 }
+.vfx {
+    border: 2px solid #F6B197;
+    border-radius: 100%;
+    grid-row: 4 / span 1;
+    grid-column: 4 / span 1;
+    width: 200px;
+}
+
+.coding {
+    border: 2px solid #F6B197;
+    border-radius: 100%;
+    grid-row: 7 / span 1;
+    grid-column: 3 / span 1;
+    width: 200px;
+}
+
+
 .skills-wrapper {
     display: grid;
     margin-left: 10%;
@@ -275,6 +292,12 @@ h1 {
     justify-content: center;
 }  
 
+#contact-nav {
+    color: #324D66;
+}
+.contact-header {
+    color: #324D66;
+}
 .contact-wrapper {
     display: grid;
     margin-left:10%;
@@ -285,8 +308,15 @@ h1 {
     height: 89%;
 }
 .p6 {
+    padding: 30px;
     grid-column: 1 / span 1;
     margin-right: 15px;
+    color: #324D66;
+    font-size: 1.65em;
+    background-color: #E87283;
+    opacity: 0.75;
+    border-radius: 50px; 
+
 }
 .container {
     background-color: #E87283;
