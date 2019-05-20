@@ -37,7 +37,7 @@ body {
 
 @media only screen and (max-width: 1280px) {
     body {
-      background-color: red;
+      background-color: #324D66;
       font-size: 15pt;
     }
     .main-text-img-wrapper {
@@ -47,7 +47,7 @@ body {
   @media only screen and (max-width: 640px) { 
      
     body {
-        background: linear-gradient(180deg, #324D66 0%, #725062 48.44%, #E87283 73.78%, #F6B197 100%);
+        background-color: linear-gradient(180deg, #324D66 0%, #725062 48.44%, #E87283 73.78%, #F6B197 100%);
         font-size: 12.5px;
     }
 
