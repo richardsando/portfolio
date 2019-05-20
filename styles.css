@@ -47,7 +47,12 @@ body {
   @media only screen and (max-width: 640px) { 
      
     body {
+        background: linear-gradient(180deg, #324D66 0%, #725062 48.44%, #E87283 73.78%, #F6B197 100%);
         font-size: 12.5px;
+    }
+
+    .page {
+        margin: 0px;
     }
     h1 { 
         font-size: 1pt;
@@ -66,7 +71,7 @@ body {
         height: 75%;
     }
     .social-wrapper {
-        width: 90%
+        width: 90%;
         justify-content: center;
         display: flex;
         position: fixed;
@@ -115,6 +120,7 @@ a {
 }
 .page {
     height: 100vh;
+    width: 100%;
 }
 .current {
     border-bottom-style: solid;
