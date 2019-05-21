@@ -200,6 +200,7 @@ a:hover {
 #main-header {
     grid-column: 1 / span 8;
     grid-row: 1 / span 2;
+    align-self: flex-start;
 }
 
 h1 {
@@ -218,10 +219,10 @@ h1 {
 }
 hr {
     grid-column: 1 / span 14;
-    grid-row: 3 / span 1;
+    grid-row: 2 / span 1;
     border-style: solid;
     border-width: 1px;
-    align-self: center;
+    align-self: flex-end;
     /* padding-right:  */
 }
 
@@ -242,11 +243,12 @@ hr {
 }
 .about-hr {
     grid-column: 1 / span 3;
-    grid-row: 2 / span 1;
+    grid-row: 1 / span 1;
     width: 100%;
+    align-self: flex-end;
 }
 .p3 {
-    grid-row: 3 / span 1;
+    grid-row: 2 / span 1;
     grid-column: 1 / span 3;
     /* width: 65%; */
     /* font-size: 14pt; */
@@ -255,29 +257,27 @@ hr {
 .coffee {
     border: 2px solid #F6B197;
     border-radius: 250px;
-    grid-row: 5 / span 1;
+    grid-row: 3 / span 1;
     grid-column: 1 / span 1;
-    width: 80%;
+    width: 50%;
     margin-top: 5%;
 }
 .vfx {
     border: 2px solid #F6B197;
     border-radius: 100%;
-    grid-row: 5 / span 1;
+    grid-row: 3 / span 1;
     grid-column: 3 / span 1;
-    width: 80%;
+    width: 50%;
     margin-top: 5%;
 }
 .coding {
     border: 2px solid #F6B197;
     border-radius: 100%;
-    grid-row: 5 / span 1;
+    grid-row: 3 / span 1;
     grid-column: 2 / span 1;
-    width: 80%;
+    width: 50%;
     margin-top: 5%;
-    
 }
-
 
 .skills-wrapper {
     display: grid;
@@ -301,9 +301,9 @@ hr {
 }
 .skills-hr {
     grid-column: 1 / span 2;
-    grid-row: 2 / span 4;
+    grid-row: 1 / span 1;
     width: 100%;
-    align-self: center;
+    align-self: flex-end;
 }
 
 .skills {
@@ -313,10 +313,9 @@ hr {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas:
-    "icon icon icon"
-    "icon icon icon"
-    "icon icon icon"
-    "icon none none";
+    "icon icon icon icon"
+    "icon icon icon icon"
+    "none icon icon none";
     /* padding: 10px; */
     grid-column: 1 / span 2;
     align-items: center;
@@ -331,17 +330,9 @@ hr {
     display: flex;
     justify-content: center;
 }  
-/* @media only screen and (min-width: 400px) {
-     i {
-        font-size: 0.75em;
-    }
-} */
-
 #contact-nav {
     color: #324D66;
-
 }
-
 .contact-header {
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
@@ -350,39 +341,36 @@ hr {
 .contact-hr {
     grid-column: 1 / span 2;
     grid-row: 1/ span 1;
-    
+    align-self: flex-end;
+    color: #324D66;   
 }
 .contact-wrapper {
     display: grid;
     margin-left:10%;
     margin-right: 10%;
-    /* margin-top: 10; */
-    grid-auto-rows: 1fr 1fr 1fr 5%;
+    grid-auto-rows: 1fr 1fr 1fr 1fr 5%;
     grid-auto-columns: 50% 1fr 1fr;
     height: 89%;
     grid-gap: 10px;
 }
 .p6 {
-    padding: 20px;
-    grid-column: 1 / span 1;
-    /* margin-right: 15px; */
-    color: #324D66;
-    font-size: 1.4em;
-    background-color: #E87283;
-    opacity: 0.75;
-    border-radius: 50px; 
-    margin-bottom: 50px;
-
+    
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 1;
+    margin-bottom: 15px;
+    font-size: 1.2em;
 }
 .container {
     background-color: #E87283;
     width: 100%;
+    color: #324D66;
     /* border-style: solid; */
     border-color: #324D66;
-    border-radius: 50px;
-    grid-column: 2 / span 1;
+    border-radius: 30px;
+    grid-column: 1 / span 2;
+    grid-row: 3 / span 1;
     /* /* margin-left: 15px; */
-    /* padding: 20px; */
+    padding: 10px;
     opacity: 0.75;
     margin-bottom: 50px;
 }
@@ -406,9 +394,9 @@ input[type=text], select, textarea {
   /* Style the submit button with a specific background color etc */
 input[type=submit] {
     background-color: transparent;
-    color: white;
+    color: #324D66;
     padding: 12px 20px;
-    border: none;
+    border: solid;
     border-radius: 4px;
     cursor: pointer;
     opacity: 0.5;
@@ -417,6 +405,7 @@ input[type=submit] {
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
     background-color: transparent;
+    color: white;
   }
 input {
     background-color: transparent;
