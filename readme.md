@@ -36,7 +36,7 @@ https://www.pinterest.com.au/richardsando/website-inspo/
 
 ![](/docs/moodboard.png)
 
-Figma was used extensively to create designs for the webpage as well as figures out what colours and fonts to use in the webpage.
+Figma was used extensively to create designs for the webpage as well as determine which colours and fonts to use in the webpage.
 
 https://www.figma.com/file/eS4h05f5d81hNHs1p7iPrnOJ/warm-colours-idea?node-id=2%3A2
 
@@ -52,7 +52,7 @@ A usability concern I encountered was the colour of the text against the varying
 
 Another usability concern was scaling the website down to mobile size. I used a number of media queries within my css to change the layout of particular elements(such as the social media panel switching to the bottom of the screen when reaching a certain minimum width) Text was also scaled down. The layout of some of the pages had to be altered so everything would sit nicely.
 
-The background image I spent a lot of time optimizing and decided what would be the correct resolution. In the end I went with an images that was 720 pixels wide. When the screen is 720p wide or smaller, the images will stay fixed, meaning the image will not become squashed or stretched. I also converted the image to 8bit from 32bit to greatly reducde the size of the file, making the site load faster for slower bandwidths. Another media query was used so that if the user's screen is wider that 720 pixels then the image will stretch. This will only slightly distort the image.
+The background image I spent a lot of time optimizing and deciding what would be the correct resolution. In the end I went with an images that was 720 pixels wide. When the screen is 720p wide or smaller, the images will stay fixed, meaning the image will not become squashed or stretched. I also converted the image to 8bit from 32bit to greatly reducde the size of the file, making the site load faster for slower bandwidths. Another media query was used so that if the user's screen is wider that 720 pixels then the image will stretch. This will only slightly distort the image.
 
 Trello was used to track progress of each task
 

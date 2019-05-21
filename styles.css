@@ -39,8 +39,8 @@ body {
 
 @media only screen and (max-width: 1280px) {
     body {
-      background-color: #324D66;
-      font-size: 15pt;
+        background-color: linear-gradient(180deg, #324D66 0%, #725062 48.44%, #E87283 73.78%, #F6B197 100%);
+        font-size: 15pt;
     }
     .main-text-img-wrapper {
         margin-bottom: 0px;
@@ -49,8 +49,8 @@ body {
   @media only screen and (max-width: 640px) { 
      
     body {
-        background-color: linear-gradient(180deg, #324D66 0%, #725062 48.44%, #E87283 73.78%, #F6B197 100%);
         font-size: 12.5px;
+        background-color: #324D66;
     }
 
     .page {
@@ -72,11 +72,11 @@ body {
         height: 75%;
     }
     .social-wrapper {
-        width: 90%;
+        width: 100%;
         justify-content: center;
         display: flex;
         position: fixed;
-        height: 90%;
+        height: 93.5%;
         /* justify-content: center; */
         align-items: flex-end;
 
@@ -109,19 +109,17 @@ body {
     z-index: 1;
     object-fit: none;
     overflow: hidden; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
-
-
-@media only screen and (min-width: 721px) {
+@media only screen and (min-width: 1081px) {
     .background-img {
+        width: 100%;
         background-image: url("./src/images/1080_8_bit_bg.png")
     }
 
 }
-
-
-
 
 .nav-wrapper {
     opacity: 1;   
