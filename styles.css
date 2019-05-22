@@ -240,6 +240,8 @@ hr {
     grid-template-rows: 17.5% 1fr 1fr;
     height: 80%;
     grid-gap: 20px;
+    position: relative;
+    z-index: 3;
 }
 .about-header {
     grid-column: 1 / span 2;
@@ -263,6 +265,8 @@ hr {
     width: 20vw;
     margin-top: 5%;
     justify-self: center;
+    position: relative;
+    z-index: 3;
 }
 .vfx {
     border: 2px solid #F6B197;
@@ -281,6 +285,8 @@ hr {
     width: 20vw;
     margin-top: 5%;
     justify-self: center;
+    position: relative;
+    z-index: 3;
 }
 .skills-wrapper {
     display: grid;
@@ -402,7 +408,7 @@ input[type=text],input[type=email], select, textarea {
 
   /* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: transparent;
+    background-color: #F2AC96;
     /* color: #324D66; */
     padding: 12px 20px;
     border: solid;
@@ -411,6 +417,16 @@ input[type=submit] {
     opacity: 0.5;
     position: relative;
     z-index: 3;
+    align-self: center;
+  }
+
+  button {
+      color: #324D66;
+      background-color: transparent;
+      font-size: 20px;
+      border-color: #324D66;
+      border-radius: 10px;
+      padding: 5px;
   }
   
   /* When moving the mouse over the submit button, add a darker green color */
