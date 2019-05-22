@@ -12,8 +12,6 @@
 </head>
 <body>
 
-    <!-- <img class="background-img" src="./src/images/alt_bg_img.png" alt="wheres that boy"> -->
-    <!-- <img class="background-img" src="./src/images/1080_8_bit_bg.png" alt="wheres that boy"> -->
     <div class="background-img"></div>
     
     <div class="content">
@@ -62,12 +60,14 @@
                     <h1 id="main-header">Hi, my name is Richard.</h1>
             
             
-                <p class="p1" >I'm a junior web developer and visual effects artist based in Melbourne, Australia</p>
+                <p class="p1" >I'm a junior web developer and visual effects artist based in Melbourne, Australia<br/>
+                    <br/>
+                    Click on the links to find out more</p>
                 
                 <hr id="hr1" class="hr">
-                <p class="p2">Click on the links to find out more</p>
+            
 
-                <img class="profile-pic" src="./src/images/profile_pic.jpg" alt="">
+                <img id="profile-pic"  class="hover-img"src="./src/images/profile_pic.jpg" alt="">
             </div>
         </div>
 
@@ -91,14 +91,20 @@
                     <div class="about-wrapper">
                         <h1 class="about-header">about</h1>
                         <hr class="about-hr">
-                        <p class="p3">My name is Richard Sando, I'm a passionate young New Zealander living in the exciting city of Melbourne. I'm currently studying at Coder Academy learning a bunch of technologies such as Ruby On Rails and JavaScript. 
-                            In my spare time I like riding my bike arpund this beautiful city, supporting the local music scene and making or drinking coffee. I have also done a bit of visual effects work which you can look at <a class="vimeo-link" href="https://vimeo.com/richardsandofx"><i>here</i></a></p>
+                        <p class="p3">My name is Richard Sando, I'm a passionate young New Zealander living in the exciting city of Melbourne. I'm currently studying at Coder Academy learning a bunch of technologies such as Ruby On Rails and JavaScript. <br>
+                            <br>
+                            In my spare time I like riding my bike around this beautiful city, supporting the local music scene and making or drinking coffee. I have also done a bit of visual effects work which you can look at <a class="vimeo-link" href="https://vimeo.com/richardsandofx"><i>here</i></a></p>
 
-                        <img class="coffee" src="./src/images/coffee_loww.jpg" alt="wheres that boy">
+                        <a href="https://www.farmcafe.com.au/">
+                            <img id="coffee" class="hover-img" src="./src/images/coffee_loww.jpg" alt="wheres that boy">
+                        </a> 
+                        <a href="https://vimeo.com/richardsandofx">
+                            <img class="vfx" src="./src/images/vfx.png" alt="where's that boy">
+                        </a>
 
-                        <img class="vfx" src="./src/images/vfx.png" alt="where's that boy">
-
-                        <img class="coding" src="./src/images/coding.jpeg" alt="">
+                        <a href="https://github.com/richardsando">
+                            <img class="coding" src="./src/images/coding.jpeg" alt="">
+                        </a>
                     </div>
         </div>
 
@@ -147,8 +153,8 @@
         <div id="contact-page" class="page">
         
             <div class="nav-wrapper">
-                <nav class="nav">
-                    <item class="nav-item" >
+                <nav class="nav" id="contact-nav">
+                    <item class="nav-item" id="contact-nav" >
                         <a href="#main-page">main</a>
                     </item>
                     <item class="nav-item" >
