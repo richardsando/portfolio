@@ -45,11 +45,15 @@ body {
     border-right-style: solid;
     border-radius: 50px;
     border-width: 1.5px;
-    z-index: 3;
+    /* z-index: 4; */
+    /* position: relative; */
+    /* z-index: 4; */
 }
 .social-icon {
     display: flex;
     width: 90%;
+    /* z-index: 4; */
+    /* position: relative; */
 }
 .background-img {
     width: 100vw;
@@ -92,11 +96,12 @@ body {
         width: 100vw;
         display: flex;
         position: fixed;
-        height: 90vh;
+        height: 90%;
         justify-content: center;
         align-items: flex-end;
         margin: 0px;
         padding: 0px;
+        /* z-index: 4; */
 
     }
     .social-media {
@@ -107,10 +112,13 @@ body {
         height: 40px;
         margin: 0px;
         padding: 0px;
-        z-index: 2;
+        /* z-index: 4; */
+        /* position: relative; */
     } 
     i {
         font-size: 0.75em;
+        /* z-index: 4;
+        position: relative; */
     }
     #profile-pic {
         transform: scale(1.5);
@@ -144,6 +152,8 @@ body {
 a {
     text-decoration: none;
     color: #F2AC96;
+    z-index: 4;
+    position: relative;
 }
 .page {
     height: 100vh;
@@ -359,7 +369,7 @@ hr {
     display: grid;
     margin-left:10%;
     margin-right: 10%;
-    grid-auto-rows: 20% 1fr%;
+    grid-auto-rows: 20% 1fr;
     grid-auto-columns: 50% 1fr 1fr;
     height: 89%;
     grid-gap: 10px;
@@ -381,16 +391,14 @@ hr {
     grid-row: 2 / span 1;
     padding: 10px;
     opacity: 0.75;
-    margin-bottom: 50px;
-    /* position: relative; */
-    z-index: 5;
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 3;
 }
     
 .fname {
     color: #324D66;
 }
-
-
 input[type=text],input[type=email], select, textarea {
     background-color: #F6B197;
     width: 100%; /* Full width */
@@ -403,7 +411,7 @@ input[type=text],input[type=email], select, textarea {
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
     position: relative;
-    z-index: 3;
+    z-index: 2;
 }
 
   /* Style the submit button with a specific background color etc */
@@ -416,17 +424,18 @@ input[type=submit] {
     cursor: pointer;
     opacity: 0.5;
     position: relative;
-    z-index: 3;
+    z-index: 2;
     align-self: center;
   }
 
   button {
       color: #324D66;
       background-color: transparent;
-      font-size: 20px;
-      border-color: #324D66;
+      font-size: 15px;
+      border-color: transparent;
       border-radius: 10px;
       padding: 5px;
+      border-style: none;
   }
   
   /* When moving the mouse over the submit button, add a darker green color */
@@ -434,12 +443,12 @@ input[type=submit] {
     background-color: transparent;
     color: white;
     position: relative;
-    z-index: 3;
+    z-index: 2;
   }
 input {
     background-color: transparent;
     position: relative;
-    z-index: 3;
+    z-index: 2;
 }
 
 .foot-wrapper {
