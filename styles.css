@@ -124,7 +124,8 @@ body {
         transform: scale(1.5);
     }
     #coffee {
-        transform: scale(1.25)    }
+        transform: scale(1.25)    
+    }
     .vfx {
         transform: scale(1.25)
     }
@@ -132,10 +133,10 @@ body {
         transform: scale(1.25)
     }
     .container {
-        margin-bottom: 0px;
+        margin-bottom: 0%;
     }
 }
-
+   
 @media only screen and (min-width: 1081px) {
     .background-img {
         width: 100%;
@@ -348,26 +349,32 @@ hr {
     display: flex;
     justify-content: center;
 }  
-#cnav a {
-    color: #324D66;
-    border-color: #324D66; 
-    border: none;
-    font-size: 1.5em;
-}
-#contact-nav-wrapper {
-    color: #324D66;
-    border-color: #324D66;
+
+@media only screen and (max-width: 640px) {
+    
+    #contact-nav-wrapper {
+        color: #F6B197;
+        border-color: #F6B197;
+    }
+    .contact-header {
+        color: #F6B197;
+    }
+    .contact-hr {
+        align-self: flex-end;
+        color: #F6B197;   
+    }
+
 }
 .contact-header {
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
-    color: #324D66;
+   
 }
 .contact-hr {
     grid-column: 1 / span 2;
     grid-row: 1/ span 1;
     align-self: flex-end;
-    color: #324D66;   
+  
 }
 .contact-wrapper {
     display: grid;
@@ -382,11 +389,11 @@ hr {
     grid-column: 1 / span 2;
     grid-row: 2 / span 1;
     margin-bottom: 15px;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 .container {
     background-color: #E87283;
-    width: 100%;
+    width: 70%;
     color: #324D66;
     border-color: #324D66;
     border-radius: 30px;
@@ -394,9 +401,10 @@ hr {
     grid-row: 2 / span 1;
     padding: 10px;
     opacity: 0.75;
-    margin-bottom: 150px;
-    position: relative;
+    /* margin-bottom: 150px; */
+    /* position: relative; */
     z-index: 3;
+    height: 85%;
 }
     
 /* .form-wrapper {
@@ -406,25 +414,32 @@ hr {
     color: #324D66;
 }
 input[type=text],input[type=email], select, textarea {
-    background-color: #F6B197;
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: #324D66;
+    background-color: #F2AC96;
+    width: 85%; 
+    padding: 12px;  
     border: 5px solid #F2AC96;
     border-style: none;
-    border-radius: 4px; /* Rounded borders */
+    border-radius: 25px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    /* margin-top: 6px;  */
+    margin-bottom: 16px; 
+
     position: relative;
     z-index: 2;
+    height: 30px;
 }
 
+textarea {
+    height: 30px;
+}
   /* Style the submit button with a specific background color etc */
 input[type=submit] {
     background-color: #F2AC96;
     /* color: #324D66; */
-    padding: 12px 20px;
+    /* padding: 12px 20px; */
     border: solid;
     border-radius: 4px;
     cursor: pointer;
@@ -434,10 +449,14 @@ input[type=submit] {
     align-self: center;
   }
 
+  .message-box {
+      height: 60px;
+      width: 100%;
+  }
   button {
       color: #324D66;
-      background-color: transparent;
-      font-size: 15px;
+      background-color: #F2AC96;
+      font-size: 1em;
       border-color: transparent;
       border-radius: 10px;
       padding: 5px;
@@ -447,10 +466,11 @@ input[type=submit] {
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
     background-color: transparent;
-    color: white;
+    background-color: #F6B197; 
+    color:  #F2AC96;
     position: relative;
     z-index: 2;
-  }
+}
 input {
     background-color: transparent;
     position: relative;
@@ -466,4 +486,4 @@ input {
     font-size: 0.75em;
     align-items: center;
 }
-
+  
