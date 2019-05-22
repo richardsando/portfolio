@@ -3,7 +3,7 @@
     margin: 0px;
     scroll-behavior: smooth;
     scroll-padding: auto;
-    /* z-index: 1; */
+    z-index: 1;
 }
 
 body {
@@ -17,7 +17,7 @@ body {
     /* text-size-adjust: auto; */
     align-items: center;
     width: 100%;
-    z-index: 2;
+    z-index: 3;
     position: relative;
 
 }
@@ -131,6 +131,7 @@ body {
         background-image: url("./src/images/1080_8_bit_bg.png");
         background-attachment: fixed;
         background-repeat: no-repeat;
+        height: 100vh;
     }
 }
 .nav-wrapper {
@@ -170,11 +171,12 @@ a:hover {
     flex-wrap: wrap;
     border-style: none none solid none; 
     border-width: 1px;
+    z-index: 4;
+    position: relative;
 }
 .nav-item {
     font-weight: lighter;
     font-size: 1.5em;
-    font-size-adjust: auto;
 }
 
 .nav-item:hover {
@@ -327,8 +329,14 @@ hr {
     display: flex;
     justify-content: center;
 }  
-#contact-nav a {
+#cnav a {
     color: #324D66;
+    border-color: #324D66; 
+    border: none;
+}
+#contact-nav-wrapper {
+    color: #324D66;
+    border-color: #324D66;
 }
 .contact-header {
     grid-column: 1 / span 1;
@@ -345,7 +353,7 @@ hr {
     display: grid;
     margin-left:10%;
     margin-right: 10%;
-    grid-auto-rows: 20% 1fr 5%;
+    grid-auto-rows: 20% 1fr%;
     grid-auto-columns: 50% 1fr 1fr;
     height: 89%;
     grid-gap: 10px;
@@ -368,14 +376,17 @@ hr {
     padding: 10px;
     opacity: 0.75;
     margin-bottom: 50px;
+    /* position: relative; */
+    z-index: 5;
 }
     
 .fname {
     color: #324D66;
 }
 
-input[type=text], select, textarea {
-    background-color: transparent;
+
+input[type=text],input[type=email], select, textarea {
+    background-color: #F6B197;
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */  
     border: 5px solid #F2AC96;
@@ -385,25 +396,34 @@ input[type=text], select, textarea {
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
+    position: relative;
+    z-index: 3;
+}
+
   /* Style the submit button with a specific background color etc */
 input[type=submit] {
     background-color: transparent;
-    color: #324D66;
+    /* color: #324D66; */
     padding: 12px 20px;
     border: solid;
     border-radius: 4px;
     cursor: pointer;
     opacity: 0.5;
+    position: relative;
+    z-index: 3;
   }
   
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
     background-color: transparent;
     color: white;
+    position: relative;
+    z-index: 3;
   }
 input {
     background-color: transparent;
+    position: relative;
+    z-index: 3;
 }
 
 .foot-wrapper {
