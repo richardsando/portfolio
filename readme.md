@@ -60,13 +60,33 @@ Trello was used to track progress of each task
 
 # Q & A
 
-1. Describe key events in the development of the internet from the 1980s to today (max. 150 words)
-
-Key events in the development of the internet included 
-
-2. Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
+#### 1. Describe key events in the development of the internet from the 1980s to today (max. 150 words)
 
 
-3. Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
+Key events in the development of the internet included:
+
+1982 SMTP (Simple Mail Transfer Protocol) is introduced
+
+1983 Domain Name System (DNS) pioneered by Jon Postel, Paul Mockapetris and Craig Partridge. Seven 'top-level' domain names are initially introduced: edu, com, gov, mil, net, org and int.
+
+1990 The Internet, World Wide Web & Tim Berners-Lee
+Tim Berners-Lee and Robert Cailliau propose a 'hypertext' system starting the modern Internet
+
+1991 The World Wide Web: The World Wide Web is launched to the public on August 6, 1991
+
+1994 The World Wide Web Consortium is founded by Tim Berners-Lee to help     with the development of common protocols for the evolution of the World Wide Web
+
+1998 google is founded
+
+#### 2. Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
+
+Domain Name Service
+Router
+Web Browser
+
+
+#### 3. Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
+
+Google.
 
 
