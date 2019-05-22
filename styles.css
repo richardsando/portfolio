@@ -96,7 +96,7 @@ body {
         width: 100vw;
         display: flex;
         position: fixed;
-        height: 90%;
+        height: 95vh;
         justify-content: center;
         align-items: flex-end;
         margin: 0px;
@@ -130,6 +130,9 @@ body {
     }
     .coding {
         transform: scale(1.25)
+    }
+    .container {
+        margin-bottom: 0px;
     }
 }
 
@@ -349,6 +352,7 @@ hr {
     color: #324D66;
     border-color: #324D66; 
     border: none;
+    font-size: 1.5em;
 }
 #contact-nav-wrapper {
     color: #324D66;
@@ -369,13 +373,12 @@ hr {
     display: grid;
     margin-left:10%;
     margin-right: 10%;
-    grid-auto-rows: 20% 1fr;
+    grid-auto-rows: 17.5% 1fr;
     grid-auto-columns: 50% 1fr 1fr;
     height: 89%;
     grid-gap: 10px;
 }
 .p6 {
-    
     grid-column: 1 / span 2;
     grid-row: 2 / span 1;
     margin-bottom: 15px;
@@ -391,11 +394,14 @@ hr {
     grid-row: 2 / span 1;
     padding: 10px;
     opacity: 0.75;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     position: relative;
     z-index: 3;
 }
     
+/* .form-wrapper {
+    height: 80%;
+} */
 .fname {
     color: #324D66;
 }
