@@ -65,28 +65,17 @@ Trello was used to track progress of each task
 
 Key events in the development of the internet included:
 
-1982 SMTP (Simple Mail Transfer Protocol) is introduced
+In 1982 the Simple Mail Transfer Protocl was introduced. In 1983 domain name system (DNS) was pioneered,creating domain names such as .com .edu .gov etc and making is easier to navigate urls. In 1990 hypertext was created. 1991, the world wide web is launched. In 1998 google is foundded
 
-1983 Domain Name System (DNS) pioneered by Jon Postel, Paul Mockapetris and Craig Partridge. Seven 'top-level' domain names are initially introduced: edu, com, gov, mil, net, org and int.
-
-1990 The Internet, World Wide Web & Tim Berners-Lee
-Tim Berners-Lee and Robert Cailliau propose a 'hypertext' system starting the modern Internet
-
-1991 The World Wide Web: The World Wide Web is launched to the public on August 6, 1991
-
-1994 The World Wide Web Consortium is founded by Tim Berners-Lee to help     with the development of common protocols for the evolution of the World Wide Web
-
-1998 google is founded
 
 #### 2. Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
 
-Domain Name Service
-Router
-Web Browser
+Websites are files on servers' hard drives. Servers are connected to each other via the internet. Each server has a unique ip address, which is just like a postal address. When users enter a website address into their web broweser (such as www.google.com) the domain name system (DNS) then converts this to an ip address, thus connecting us to the website. This saves us from having to remember specific ip addresses for websites. Personal computers do not have servers as they are not directly connected to the internet. They are connected via an internet servce provider (isp). 
 
+Whenever information is sent from one place to another on the internet, it is broken down into smaller chunks called packets. A router is used to direct where these packets go and come from. 
 
 #### 3. Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
 
-Google.
+Google was founded in 1998 as a search engine for finding things on the internet and quickly become the most used website on the web. It has made it so easy for people to access information about anything they like, providing they have access to the internet. Google is now one of the biggest companies in the world. Without it, it may be a lot harder for people to find information about the specific topic they are looking for one the web.
 
 
